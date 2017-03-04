@@ -28,7 +28,6 @@ const IssueCommentsQuery = gql`
               id
               body
               author {
-                id
                 login
               }
             }
